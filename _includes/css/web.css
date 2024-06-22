@@ -1,0 +1,88 @@
+body {
+    width: 100%;
+    height: 100%;
+    font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #fff;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+@media(min-width:767px) {
+    p {
+        margin: 0 0 35px;
+        font-size: 20px;
+        line-height: 1.6;
+    }
+}
+
+/* top nav bar */
+.navbar {
+    padding: 0.5rem 1rem;
+    /* Reduce padding inside the navbar */
+}
+
+.navbar-brand img {
+    height: 50px;
+    /* Adjust logo size */
+}
+
+.navbar-nav .nav-link {
+    font-size: 1rem;
+    /* Reduce the font size of navbar links */
+}
+
+.navbar-nav .nav-link:hover {
+    /* color: #795b35; */
+    color: #ffffff;
+    /* Change color to brown when hovered */
+}
+
+/* .nav-text {
+    color: black !important;
+} */
+
+.intro {
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+    background: url('/img/intro-bg.jpg') no-repeat bottom center scroll;
+    background-color: #222; /* Add a fallback background color */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.intro .intro-body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.intro .intro-body .brand-heading {
+    font-size: 40px;
+}
+
+.intro .intro-body .intro-text {
+    font-size: 18px;
+}
+
+@media(min-width:767px) {
+    .intro {
+        height: 100%;
+        padding: 0;
+    }
+
+    .intro .intro-body .brand-heading {
+        font-size: 100px;
+    }
+
+    .intro .intro-body .intro-text {
+        font-size: 25px;
+    }
+}
