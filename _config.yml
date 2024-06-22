@@ -1,0 +1,16 @@
+# User config
+author: "Rita"
+tagline: "My Blog"
+description: "Hello and welcome to my blog! Here, I document my journey in Landscape Architecture, Graphic Design and IT projects. 
+I am a creative individual who enjoys human-centered design, 
+respecting the relationships between humans, nature, and spaces."
+email: "yychen8010@gmail.com"
+linkedin: "https://www.linkedin.com/in/rita-chen-56b5ab169/"
+
+# Site config
+baseurl: ""
+url: "https://geasssoul.github.io/blog/"
+# highlighter: rouge
+# sass:
+#   sass_dir: assets/scss
+#   style: compressed
