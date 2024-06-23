@@ -42,7 +42,7 @@ h6 {
     font-weight: 300;
 }
 
-@media(min-width:767px) {
+@media(max-width:767px) {
     p {
         margin: 0 0 5px;
         font-size: 20px;
@@ -96,7 +96,7 @@ h6 {
     font-size: 18px;
 }
 
-@media(min-width:767px) {
+@media(max-width:767px) {
     .intro {
         height: 100%;
         padding: 0;
@@ -114,6 +114,26 @@ h6 {
 .container-fluid, .row {
     padding: 0;
     margin: 0;
+}
+
+.wrap-pack {
+    padding: 200px;
+    display: block;
+}
+
+@media (max-width: 767px) {
+    .container-fluid.wrap-pack {
+        padding: 50px;
+    }
+
+    .container {
+        padding: 0 10px;
+    }
+
+    .text-align-justify {
+        text-align: left;
+        padding: 0 5px;
+    }
 }
 
 .card-container {
@@ -180,7 +200,7 @@ h6 {
 }
 
 /* Media query for screens with max width 1280px */
-@media screen and (max-width: 1280px) {
+@media (max-width: 1280px) {
     .d-home .img {
         width: 45%;
     }
@@ -190,7 +210,7 @@ h6 {
 }
 
 /* Media query for screens with max width 980px */
-@media screen and (max-width: 980px) {
+@media (max-width: 980px) {
     .d-home {
         display: block;
     }
@@ -209,7 +229,7 @@ h6 {
 }
 
 /* Media query for screens with max width 736px */
-@media screen and (max-width: 736px) {
+@media (max-width: 736px) {
     .d-home .content {
         padding: 3em 2em 1em 2em;
     }
