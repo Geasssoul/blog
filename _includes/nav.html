@@ -1,8 +1,8 @@
 <!-- _includes/nav.html -->
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #222;" role="navigation">
-    <div class="container">
-        <a class="navbar-brand" href="/">
-            <span class="light">MY PORTFOLIO.</span>
+    <div class="container-fluid">
+        <a class="navbar-brand" href="{{ site.baseurl }}/">
+            <span class="light">PORTFOLIO.</span>
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -10,13 +10,19 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ms-auto ml-auto">
                 <li class="nav-item me-2">
-                    <a class="nav-link" href="#about">About</a>
+                    <a class="nav-link" href="{{ site.baseurl }}/la/">Landscape Architecture</a>
                 </li>
                 <li class="nav-item me-2">
-                    <a class="nav-link" href="#download">Download</a>
+                    <a class="nav-link" href="{{ site.baseurl }}/web/">Web Application</a>
                 </li>
                 <li class="nav-item me-2">
-                    <a class="nav-link" href="#contact">Contact</a>
+                    <a class="nav-link" href="{{ site.baseurl }}/gd/">Graphic Design</a>
+                </li>
+                <li class="nav-item me-2">
+                    <a class="nav-link" href="{{ site.baseurl }}/more/">Explore More</a>
+                </li>
+                <li class="nav-item me-2">
+                    <a class="nav-link" href="{{ site.baseurl }}/about/">About Me</a>
                 </li>
             </ul>
         </div>
