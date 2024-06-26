@@ -9,8 +9,12 @@ linkedin: "https://www.linkedin.com/in/rita-chen-56b5ab169/"
 
 # Site config
 baseurl: "/blog"
-url: "https://geasssoul.github.io"
+url: "https://geasssoul.github.io/"
 # highlighter: rouge
 # sass:
 #   sass_dir: assets/scss
 #   style: compressed
+
+# Build settings
+markdown: kramdown
+permalink: pretty
