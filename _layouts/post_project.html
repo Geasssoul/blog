@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    {% include head.html %}
+    <style>
+        .post-container {
+            padding: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    {% include nav.html %}
+    <header>
+    </header>
+    <main class="container-fluid">
+        <div class="post-container" style="color: black;">
+            <div class="row">
+                <aside class="col-md-8 project-images">
+                        {% for image in page.images %}
+                            <img src="{{ image.url | prepend: site.baseurl }}" alt="{{ image.alt }}" />
+                        {% endfor %} 
+                </aside>
+                <article class="col-md-4 project-content">
+                    <h1>
+                        <p>{{ page.project.title }}</p>
+                    </h1>
+                    <span class="sub-title">Project Information</span>
+                    {{ page.content }}
+                    <div class="project-meta">
+                        <span class="sub-title">Program Used</span>
+                        <p>{{ page.project.program }}</p>
+                        <span class="sub-title">Location</span>
+                        <p>{{ page.project.loca }}</p>
+                        <span class="sub-title">Year</span>
+                        <p>{{ page.project.year }}</p>
+                    </div>
+                </article>
+            </div>
+            <section class="project-navigation">
+                <div class="container">
+                    {% if page.previous and page.previous.categories contains "projects" %}
+                    <a title="Previous {{ page.previous.project.title }}"
+                        href="{{ page.previous.url | prepend: site.baseurl }}" class="prev">
+                        <span class="h2">Previous</span>
+                        <h2>{{ page.previous.project.title }}</h2>
+                    </a>
+                    {% endif %}
+                    {% if page.next and page.next.categories contains "projects" %}
+                    <a title="Next {{ page.next.project.title }}" href="{{ page.next.url | prepend: site.baseurl }}"
+                        class="next">
+                        <span class="h2">Next</span>
+                        <h2>{{ page.next.project.title }}</h2>
+                    </a>
+                    {% endif %}
+                </div>
+            </section>
+    </main>
+    {% include footer.html %}
+    {% include js.html %}
+</body>
+
+</html>
