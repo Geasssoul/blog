@@ -12,6 +12,33 @@
 
 
 
+    <style>
+        .collapsible {
+            background-color: #777;
+            color: white;
+            cursor: pointer;
+            padding: 10px;
+            width: 100%;
+            border: none;
+            text-align: left;
+            outline: none;
+            font-size: 15px;
+            margin-top: 10px;
+        }
+
+        .active,
+        .collapsible:hover {
+            background-color: #555555;
+        }
+
+        .content {
+            padding: 0 18px;
+            display: none;
+            overflow: hidden;
+            background-color: #f9f9f9;
+            margin-bottom: 10px;
+        }
+    </style>
 </head>
 
 <body>
@@ -72,138 +99,162 @@
                 allows me to combine my design background with technical together.
             </p>
 
-            <div class="h2">Skills & Abilities</div>
-            <div class="sub-title">Landscape Skills</div>
-            <ul class="cust-p">
-                <li>AutoCAD</li>
-                <li>Revit: Knowledgeable in Revit</li>
-                <li>Adobe Suite (Adobe Photoshop, Adobe Illustrator, Adobe InDesign)</li>
-                <li>Sketch Up & Lumion: Modelling and Rendering</li>
-                <li>ArcGIS: Analysis of site condition</li>
-                <li>Landscape Design: Understanding of landscape design princples and Te Aranga Maori design principles
-                </li>
-            </ul>
+            <button class="collapsible">Skills</button>
+            <div class="content">
+                <div class="sub-title">Landscape Skills</div>
+                <ul class="cust-p">
+                    <li>AutoCAD</li>
+                    <li>Revit: Knowledgeable in Revit</li>
+                    <li>Adobe Suite (Adobe Photoshop, Adobe Illustrator, Adobe InDesign)</li>
+                    <li>Sketch Up & Lumion: Modelling and Rendering</li>
+                    <li>ArcGIS: Analysis of site condition</li>
+                    <li>Landscape Design: Understanding of landscape design princples and Te Aranga Maori design
+                        principles
+                    </li>
+                </ul>
 
-            <div class="sub-title mt-3">IT Skills</div>
-            <ul class="cust-p">
-                <li>Programming Languages: Python, JavaScript, and SQL</li>
-                <li>Web Development: HTML, CSS, Bootstrap, Flask and Jinja</li>
-                <li>Database Management: MySQL</li>
-                <li>Cloud Computing: Knowledgeable in Azure</li>
-            </ul>
+                <div class="sub-title mt-3">IT Skills</div>
+                <ul class="cust-p">
+                    <li>Programming Languages: Python, JavaScript, and SQL</li>
+                    <li>Web Development: HTML, CSS, Bootstrap, Flask and Jinja</li>
+                    <li>Database Management: MySQL</li>
+                    <li>Cloud Computing: Knowledgeable in Azure</li>
+                </ul>
 
-            <div class="sub-title mt-3">Interpersonal Skills</div>
-            <ul class="cust-p">
-                <li>Teamwork:
-                    As a team player, adept at providing support and building strong collaborative relationships
-                    with teams. Possessing problem-solving abilities and adaptability, I thrive in diverse work
-                    environments and
-                    under various challenges, maintaining stability and efficiency.</li>
-                <br><br>
-                <li>Communication:
-                    Strong communication skills, proactively engaging with teams, valuing their insights
-                    and perspectives, and ensuring that we synergize our efforts effectively towards shared objectives.
-                </li>
-                <br><br>
-                <li>Problem Solving:
-                    Excellent analytical and problem-solving abilities, able to analyze problems from different
-                    angles and formulate solutions for discussion and collaboration with the team.</li>
-                <br><br>
-                <li>Time Management:
-                    As the saying goes, "If you fail to plan, then plan to fail." I prioritize tasks according
-                    to their due dates and the priorities set by the product owner. I also allocate spare time to review
-                    projects
-                    to ensure they are finished on time and functioning properly. Effective time management not only
-                    ensures timely
-                    completion of tasks but also helps me cope with stress and perform well under pressure.</li>
-            </ul>
-
-            <div class="h2">Work Experience</div>
-            <div class="sub-title">
-                Landscape Architect - Contractor
-                <br><br>
-                Topland New Zealand Ltd, Auckland, New Zealand | March 2022 - Present
-                <br><br>
-                Key achievements and responsibilities:
+                <div class="sub-title mt-3">Interpersonal Skills</div>
+                <ul class="cust-p">
+                    <li>Teamwork:
+                        As a team player, adept at providing support and building strong collaborative relationships
+                        with teams. Possessing problem-solving abilities and adaptability, I thrive in diverse work
+                        environments and
+                        under various challenges, maintaining stability and efficiency.</li>
+                    <br><br>
+                    <li>Communication:
+                        Strong communication skills, proactively engaging with teams, valuing their insights
+                        and perspectives, and ensuring that we synergize our efforts effectively towards shared
+                        objectives.
+                    </li>
+                    <br><br>
+                    <li>Problem Solving:
+                        Excellent analytical and problem-solving abilities, able to analyze problems from different
+                        angles and formulate solutions for discussion and collaboration with the team.</li>
+                    <br><br>
+                    <li>Time Management:
+                        As the saying goes, "If you fail to plan, then plan to fail." I prioritize tasks according
+                        to their due dates and the priorities set by the product owner. I also allocate spare time to
+                        review
+                        projects
+                        to ensure they are finished on time and functioning properly. Effective time management not only
+                        ensures timely
+                        completion of tasks but also helps me cope with stress and perform well under pressure.</li>
+                </ul>
             </div>
-            <ul class="cust-p">
-                <li>Preparing landscape documents, such as landscape design package, detailed drawing,
-                    landscape maintenance document, and planting project program.</li>
-                <li>Contributing to visual communication efforts, including site plans and perspectives.</li>
-                <li>Collaborating closely with contractors and the team to ensure the success of projects.</li>
-                <li>Assisting in site visits and providing construction administration support as required.</li>
-            </ul>
 
-            <div class="sub-title">
-                Graduate Landscape Architect
-                <br><br>
-                Jun Landscape Ltd, Auckland, New Zealand | November 2020 – July 2021
-                <br><br>
-                Key achievements and responsibilities:
-            </div>
-            <ul class="cust-p">
-                <li>Worked on a variety of residential projects.</li>
-                <li>Developed and prepared landscape design plans with AutoCAD, Photoshop and InDesign.</li>
-                <li>Provided landscape architectural advice and solution.</li>
-                <li>Worked closely with the team and clients to deliver advice and solution within deadlines.</li>
-                <li>Mentored interns and reviewed their works in a technical field, and always encourage and
-                    teach</li>
-            </ul>
+            <button class="collapsible">Work Experience</button>
+            <div class="content">
+                <div class="sub-title">
+                    Landscape Architect - Contractor
+                    <br><br>
+                    Topland New Zealand Ltd, Auckland, New Zealand | March 2022 - Present
+                    <br><br>
+                    Key achievements and responsibilities:
+                </div>
+                <ul class="cust-p">
+                    <li>Preparing landscape documents, such as landscape design package, detailed drawing,
+                        landscape maintenance document, and planting project program.</li>
+                    <li>Contributing to visual communication efforts, including site plans and perspectives.</li>
+                    <li>Collaborating closely with contractors and the team to ensure the success of projects.</li>
+                    <li>Assisting in site visits and providing construction administration support as required.</li>
+                </ul>
 
-            <div class="sub-title">
-                Landscape Architect Assistant
-                <br><br>
-                APCE DESIGN, CO., Ltd, Hainan, Haikou, China | November 2018 – February 2019
-                <br><br>
-                Key achievements and responsibilities:
-            </div>
-            <ul class="cust-p">
-                <li>Worked closely with the team and assisted Landscape Architects in completing the works.</li>
-                <li>Worked on the early-stage project and gathered ideas and delivered my concept ideas with 3D
-                    SketchUp modelling.</li>
-                <li>Worked closely with the team and assisted them in the layout of the presentation document.</li>
-            </ul>
+                <div class="sub-title">
+                    Graduate Landscape Architect
+                    <br><br>
+                    Jun Landscape Ltd, Auckland, New Zealand | November 2020 – July 2021
+                    <br><br>
+                    Key achievements and responsibilities:
+                </div>
+                <ul class="cust-p">
+                    <li>Worked on a variety of residential projects.</li>
+                    <li>Developed and prepared landscape design plans with AutoCAD, Photoshop and InDesign.</li>
+                    <li>Provided landscape architectural advice and solution.</li>
+                    <li>Worked closely with the team and clients to deliver advice and solution within deadlines.</li>
+                    <li>Mentored interns and reviewed their works in a technical field, and always encourage and
+                        teach</li>
+                </ul>
 
-            <div class="h2">Academic Projects</div>
-            <div class="sub-title">
-                WebApp Development - Lincoln University
+                <div class="sub-title">
+                    Landscape Architect Assistant
+                    <br><br>
+                    APCE DESIGN, CO., Ltd, Hainan, Haikou, China | November 2018 – February 2019
+                    <br><br>
+                    Key achievements and responsibilities:
+                </div>
+                <ul class="cust-p">
+                    <li>Worked closely with the team and assisted Landscape Architects in completing the works.</li>
+                    <li>Worked on the early-stage project and gathered ideas and delivered my concept ideas with 3D
+                        SketchUp modelling.</li>
+                    <li>Worked closely with the team and assisted them in the layout of the presentation document.</li>
+                </ul>
             </div>
-            <ul class="cust-p">
-                <li>Designed and developed a web application for a car race and
-                    agriculture using flask, python, jinja, mySQL and bootstrap, focusing on user-friendly
-                    features and efficient functions.</li>
-            </ul>
 
-            <div class="sub-title">
-                UX Design Project - Lincoln University
-            </div>
-            <ul class="cust-p">
-                <li>Undertook a project to redesign the user interface for an
-                    application, emphasizing intuitive, user-friendly interface and user engagement, utilizing
-                    principles learned in UX design coursework.Used Balsamiq Wireframes to design the
-                    dynamic flow of the web page.</li>
-            </ul>
+            <button class="collapsible">Academic Projects</button>
+            <div class="content">
+                <div class="sub-title">
+                    WebApp Development - Lincoln University
+                </div>
+                <ul class="cust-p">
+                    <li>Designed and developed a web application for a car race and
+                        agriculture using flask, python, jinja, mySQL and bootstrap, focusing on user-friendly
+                        features and efficient functions.</li>
+                </ul>
 
-            <div class="sub-title">
-                BA Project - Lincoln University
-            </div>
-            <ul class="cust-p">
-                <li>Focused on a deep understanding of client needs and requirements through
-                    a comprehensive analysis of both internal and external environments. The project aimed
-                    at identifying core issues through detailed evaluation, leading to the development and
-                    implementation of strategic solutions.</li>
-            </ul>
+                <div class="sub-title">
+                    UX Design Project - Lincoln University
+                </div>
+                <ul class="cust-p">
+                    <li>Undertook a project to redesign the user interface for an
+                        application, emphasizing intuitive, user-friendly interface and user engagement, utilizing
+                        principles learned in UX design coursework.Used Balsamiq Wireframes to design the
+                        dynamic flow of the web page.</li>
+                </ul>
 
-            <div class="h2">Education</div>
-            <div class="sub-title">Master of Applied Computing</div>
-            <div class="cust-p">
-                <p>(July 2023 – Present)</p>
-                <p>Lincoln University</p>
+                <div class="sub-title">
+                    BA Project - Lincoln University
+                </div>
+                <ul class="cust-p">
+                    <li>Focused on a deep understanding of client needs and requirements through
+                        a comprehensive analysis of both internal and external environments. The project aimed
+                        at identifying core issues through detailed evaluation, leading to the development and
+                        implementation of strategic solutions.</li>
+                </ul>
             </div>
-            <div class="sub-title">Bachelor of Landscape Architecture</div>
-            <div class="cust-p">
-                <p>(March 2017 – April 2021)</p>
-                <p>Unitec Institute of Technology</p>
+
+            <button class="collapsible">Education</button>
+            <div class="content">
+                <div class="sub-title">Master of Applied Computing</div>
+                <ul class="cust-p">
+                    <li>(July 2023 – Present)</li>
+                    <li>Lincoln University</li>
+                </ul>
+                <div class="sub-title">Bachelor of Landscape Architecture</div>
+                <ul class="cust-p">
+                    <li>(March 2017 – April 2021)</li>
+                    <li>Unitec Institute of Technology</li>
+                </ul>
+            </div>
+
+
+
+            <button class="collapsible">Interests</button>
+            <div class="content">
+                <div class="cust-p">
+                    I enjoy exploring new places and cultures through travel, and I have a passion for capturing 
+                    moments through drawing, photography, and video editing. In my spare time, I love experimenting 
+                    with recipes and engaging in various crafting projects. I have a deep affection for animals, 
+                    having cared for a dog.
+                </div>
+                <img src="/blog/images/about/hali1.jpg" alt="Profile Image" class="profile-image float-right ml-3 mb-5">
             </div>
         </div>
     </main>
@@ -230,5 +281,21 @@
 <script src="/blog/js/popper.min.js"></script>
 <script src="/blog/js/bootstrap.min.js"></script>
 </body>
+<script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+
+    for (i = 0; i < coll.length; i++) {
+        coll[i].addEventListener("click", function () {
+            this.classList.toggle("active");
+            var content = this.nextElementSibling;
+            if (content.style.display === "block") {
+                content.style.display = "none";
+            } else {
+                content.style.display = "block";
+            }
+        });
+    }
+</script>
 
 </html>
