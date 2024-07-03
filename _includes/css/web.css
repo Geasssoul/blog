@@ -49,6 +49,12 @@ h6 {
 .cust-p {
     font-size:16px;
     font-weight: 300;
+    text-align: justify;
+}
+
+.sub-title {
+    font-size: 16px;
+    font-weight:600;
 }
 
 @media(max-width:767px) {
@@ -60,6 +66,7 @@ h6 {
     .cust-p {
         font-size:16px;
         font-weight: 300;
+        text-align: justify;
     }
     .p-font {
         font-size: 20px;
@@ -69,6 +76,10 @@ h6 {
         margin: 0 0 5px;
         font-weight: 700;
         letter-spacing: 1px;
+    }
+    .sub-title {
+        font-size: 16px;
+        font-weight:500;
     }
 }
 
@@ -272,6 +283,15 @@ h6 {
     top: 0;
     left: 0;
     z-index: 1;
+}
+
+.about-content {
+    padding: 100px 0 0;
+    margin-bottom: 50px;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 1; 
 }
 
 /* 新的卡片样式 */
