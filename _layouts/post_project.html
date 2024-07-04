@@ -68,7 +68,7 @@
             
                         {% if previous_index < post_count %}
                         {% assign previous_post = sorted_posts[previous_index] %}
-                        <div class="col-6 text-left">
+                        <div class="col-md-6 text-left">
                             <a title="Previous {{ previous_post.project.title }}" href="{{ previous_post.url | prepend: site.baseurl }}" class="prev">
                                 <span class="cust-h2">Previous</span>
                                 <div class="sub-title">{{ previous_post.project.title }}</div>
@@ -78,7 +78,7 @@
             
                         {% if next_index >= 0 %}
                         {% assign next_post = sorted_posts[next_index] %}
-                        <div class="col-6 text-right">
+                        <div class="col-md-6 text-right">
                             <a title="Next {{ next_post.project.title }}" href="{{ next_post.url | prepend: site.baseurl }}" class="next">
                                 <span class="cust-h2">Next</span>
                                 <div class="sub-title">{{ next_post.project.title }}</div>
